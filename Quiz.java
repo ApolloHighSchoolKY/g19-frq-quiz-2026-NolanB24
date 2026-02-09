@@ -1,8 +1,9 @@
 public static String scrambleWord(String word){
   /* To be implemented in part (a) */
+  word = "";
   for(int i = 0; i < word.length(); i++)
-    word = "";
-    word += word.substring(i + 1, i + 1);
+     word += word.substring(i + 1, i + 1);
+   
     
   return word;
 }
